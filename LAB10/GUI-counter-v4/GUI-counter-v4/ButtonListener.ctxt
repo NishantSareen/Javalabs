@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=panel\ counter
+comment0.target=ButtonListener(CounterPanel,\ Counter)
+comment0.text=\r\n\ The\ listener\ stores\ references\ to\ the\ counter\ and\ its\ user\r\n\ interface\ panel,so\ that\ it\ can\ call\ methods\ on\ both\ objects.\r\n
+comment1.params=event
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment1.text=\r\n\ The\ ActionListener\ interface\ declares\ one\ abstract\ method\:\ actionPerformed.\ Because\ \r\n\ ButtonListener\ implements\ ActionListener,\ it\ must\ provide\ a\ concrete\ implementation\ of\ \r\n\ actionPerformed.\r\n\ \r\n\ After\ the\ ButtonListener\ object\ is\ registered\ as\ a\ listener\ for\ the\ button,\ the\ \r\n\ actionPerformed\ method\ will\ be\ called\ by\ the\ button\ when\ it\ is\ clicked\ \r\n\ (see\ the\ comments\ in\ class\ CounterPanel).\ \r\n
+numComments=2

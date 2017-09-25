@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=model
+comment0.target=ButtonListener(TicTacToeModel)
+comment0.text=\r\n\ The\ listener\ stores\ a\ reference\ to\ the\ game's\ model.\r\n
+comment1.params=event
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment1.text=\r\n\ Called\ when\ a\ player\ clicks\ a\ button\ to\ mark\ a\ square\ with\r\n\ an\ "X"\ or\ an\ "O".\ Updates\ the\ model\ and\ the\ GUI.\r\n
+numComments=2

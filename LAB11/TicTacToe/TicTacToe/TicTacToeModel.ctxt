@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TicTacToeModel()
+comment0.text=\r\n\ Initializes\ a\ new\ game\ of\ Tic-Tac-Toe.\r\n\ The\ first\ person\ to\ make\ move\ will\ be\ player\ X.\r\n
+comment1.params=
+comment1.target=char\ getPlayer()
+comment1.text=\r\n\ Returns\ a\ character\ indicating\ which\ player's\ turn\ it\ is,\r\n\ 'X'\ or\ 'O'.\r\n
+comment2.params=
+comment2.target=void\ nextPlayer()
+comment2.text=\r\n\ Changes\ the\ player\ whose\ turn\ it\ is\ from\ player\ X\ to\ player\ O\ \r\n\ or\ from\ player\ O\ to\ player\ X.\r\n
+comment3.params=
+comment3.target=char\ getGameState()
+comment3.text=\r\n\ Determines\ the\ current\ state\ of\ game.\r\n\ \r\n\ @return\ 'X'\ if\ the\ game\ is\ over\ and\ was\ won\ by\ player\ X,\r\n\ \ \ \ \ \ \ \ \ 'O'\ if\ the\ game\ is\ over\ and\ was\ won\ by\ player\ O,\r\n\ \ \ \ \ \ \ \ \ 'D'\ if\ the\ game\ is\ over\ and\ ended\ in\ a\ draw,\r\n\ \ \ \ \ \ \ \ \ 'I'\ if\ the\ game\ is\ in\ progress\ (not\ yet\ over).\r\n
+comment4.params=row\ col
+comment4.target=void\ markSquare(int,\ int)
+comment4.text=\r\n\ Marks\ the\ specified\ square\ with\ an\ X\ or\ an\ O,\r\n\ depending\ on\ which\ player's\ turn\ it\ is.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Returns\ a\ string\ representation\ of\ the\ game's\ squares.\ \r\n
+numComments=6
